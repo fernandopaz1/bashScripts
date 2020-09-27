@@ -1,14 +1,14 @@
 chmod 744 webPageTemplate.sh
 
 aliasWeb="alias webTemplate=/home/$USER/bashScripts/webPageTemplate.sh"; 
-bashrcDir="/home/$USER/.bashrc";
+zshrcDir="/home/$USER/.zshrc";
 
-echo "">>$bashrcDir;
+echo "">>$zshrcDir;
 
 
-echo $aliasWeb>>$bashrcDir;
+echo $aliasWeb>>$zshrcDir;
 
-echo "">>$bashrcDir;
+echo "">>$zshrcDir;
 
-cat gitAlias.txt>>$bashrcDir;
-
+cat gitAlias.txt>>$zshrcDir;
+cat functions.sh>>$zshrcDir;

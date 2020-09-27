@@ -1,7 +1,7 @@
 alias gst='git status'
 alias ga='git add .'
 alias gl='git pull'
-alias gp='git push'
+alias gp='git push origin master'
 alias gd='git diff | less'
 alias gau='git add --update'
 alias gc='git commit -m'
