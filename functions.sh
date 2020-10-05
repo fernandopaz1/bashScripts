@@ -1,3 +1,3 @@
 open(){
-    nohup thunar
+    nohup thunar > /dev/null 2>&1;
 } 
